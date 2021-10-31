@@ -1,0 +1,28 @@
+.baner {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:  url(https://i.pinimg.com/originals/dc/2b/63/dc2b6358d49e65f8ec9b43567b95aa1f.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container #scene .layer {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+}
+
+.container #scene .layer img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
